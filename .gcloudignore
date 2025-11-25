@@ -1,0 +1,44 @@
+# Google Cloud ignore patterns
+.gcloudignore
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Documentation
+README.md
+docs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local development
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
